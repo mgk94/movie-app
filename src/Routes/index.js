@@ -7,6 +7,7 @@ import {
 import App from "../App";
 import Home from "../Pages/Home";
 import ExplorePage from "../Pages/ExplorePage";
+import SearchPage from "../Pages/SearchPage";
 
 
  export const router = createBrowserRouter([
@@ -23,7 +24,12 @@ import ExplorePage from "../Pages/ExplorePage";
         path: "explore",
       element: <ExplorePage/>,
 
-      }
+      },
+      {
+        path: "search",
+      element: <SearchPage/>,
+
+      },
     ]
     },
   
