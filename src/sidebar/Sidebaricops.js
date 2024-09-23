@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt, faShoppingCart, faGem, faChartLine, faGlobe, faBook, faCalendar, faFolder, faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { menujson } from './MenuConfig';
-import './sidebaricops.css'; // Import the CSS file
+import './sidebaricops.css'; 
 
 function Sidebaricops() {
   const [activeMenuIndex, setActiveMenuIndex] = useState(null);
@@ -35,7 +35,7 @@ function Sidebaricops() {
               <FontAwesomeIcon
                 icon={faCaretDown}
                 className={`arrow ${activeMenuIndex === index ? 'rotate' : ''}`}
-                style={{ marginLeft: 'auto' }} // Push the arrow to the right
+                style={{ marginLeft: 'auto' }} 
               />
             )}
           </div>
