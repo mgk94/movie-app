@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,150 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 10px 5px 10px;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ccc;
 }
+
+/* .toolbar-group {
+  display: flex;
+  margin-right: 20px;
+  padding-right: 15px; 
+  border-right: 1px solid #ccc; 
+
+}
+.toolbar-group:last-child {
+  border-right: none;
+  margin-right: 0;
+} */
+
+.toolbar-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  padding: 8px;
+  /* background-color: white;
+  border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+.toolbar-btn i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+
+
+.toolbar-btn:focus {
+  outline: none;
+}
+
+.toolbar-btn:last-child {
+  margin-right: 0;
+}
+ /* .toolbar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: -20px;
+  padding-right: 15px; 
+  
+}
+
+
+
+
+.toolbar-label {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  margin-right: 38px;
+  font-weight: 800;
+} */
+/* .toolbar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.toolbar-group:last-child {
+  border-right: none;
+  margin-right: 0;
+} */
+
+/* .toolbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; 
+}
+
+.toolbar-label {
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  font-weight: 800;
+} */
+
+.toolbar-group{
+  display: flex;
+  flex-Direction: column;
+  align-items: center;
+  border-right:2px solid #e0e0e0
+
+}
+.toolbar-content{
+  display:flex;
+  /* margin-right:15px; */
+  margin-left: 10px;
+
+
+}
+.toolbar-title{
+  font-size: 12px;
+  font-weight: 700;
+  padding:5px
+}
+.button-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  padding: 5px;
+}
+.button-style{
+  font-size:25px ;
+  padding: 10px;
+
+  
+
+}
+.button-title{
+  font-size:12px;
+}
+.button-content:hover {
+  background-color: #e6e6e6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button-content:active {
+  background-color: #d9d9d9;
+}
+.toolbar-group:last-child {
+  border-right: none;
+  margin-right: 0;
+} 
+

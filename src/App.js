@@ -1,26 +1,51 @@
 
-// import './App.css';
-// import {Outlet} from "react-router-dom"
-// import Header from './Components/Header';
-// import Footer from './Components/Footer';
+import './App.css';
+import Calculations from './ToolBar/Calculations/Calculations';
+import Clipboard from './ToolBar/ClipBoard/Clipboard';
+import Data from './ToolBar/Data/Data';
+import Insert from './ToolBar/Insert/Insert';
+import Publish from './ToolBar/Publish/Publish';
+import Queries from './ToolBar/Queries/Queries';
+import Sensitivity from './ToolBar/Sensitivity/Sensitivity';
 
-import Sidebaricops from "./sidebar/Sidebaricops";
+
+
+
+
 
 function App() {
-  return (
-  <main>
-    {/* <Header/>
-    <div className='pt-16'>
-      <Outlet/>
-    </div>
   
-    <Footer/> */}
-    <Sidebaricops/>
+  return (
+
+  
+<div className="toolbar">
+
+        <Clipboard />
+       
+
+        <Data />
+     
+    
+        <Queries />
+      
+ 
+        <Insert />
+       
+     
+        <Calculations />
+     
+  
+        < Sensitivity/>
+
+        <Publish/>
+    
+      
+</div>
     
 
 
 
-  </main>
+
   );
 }
 
